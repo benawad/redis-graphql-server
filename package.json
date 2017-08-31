@@ -1,0 +1,26 @@
+{
+  "name": "redis-graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "graphql": "^0.11.2",
+    "graphql-tools": "^1.2.2",
+    "redis": "^2.8.0"
+  }
+}
